@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    min-width: 650px;
+}
+#coordinate-canvas {
+    background: #f8f8f8;
+    border: 1px solid #aaa;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    /* Center the canvas visually */
+    margin-top: 0;
+}
+#intercepts-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1976d2;
+    font-weight: 500;
+}
+#question {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #222;
+    font-weight: 500;
+}
+#controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#controls button:hover {
+    background: #1565c0;
+}
+#controls button[style*="display:none"] {
+    display: none !important;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koordináta-rendszer játék</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Place the point in the correct position.</h1>
+    <div id="intercepts-info"></div>
+    <div id="feedback" style="font-size:20px; margin-bottom:10px; color:#388e3c; font-weight:bold;"></div>
+    <div id="game-container">
+        <canvas id="coordinate-canvas" width="600" height="600"></canvas>
+        <div id="controls">
+            <button id="check-btn">Check</button>
+            <button id="again-btn" style="display:none;">Again</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
